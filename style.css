@@ -1,0 +1,117 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, #564256, #6d6d88, #7f9bb6, #97ccdc, #c0fcf8);
+}
+.container
+{
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 105px;
+    background-color: rgba(232,232,232,0.3);
+}
+h1
+{
+    color:khaki;
+}
+#addBtn
+{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 1.5px solid black;
+    color:black;
+    background-color: #C191A1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.6;
+}
+#addBtn:hover
+{
+    background-color: #D6E3F8;
+}
+#addBtn:active {
+    transform: scale(0.95);
+}
+#bar
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0.45;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+
+}
+#bar:focus {
+    outline: none;
+    opacity: 0.8;
+    border-color: #888;
+}
+.list
+{
+    text-align: center;
+    align-items:self-start;
+    margin-top: 35px;
+    margin-left: 57px;
+    padding-top: 15px;
+    padding-left: 20px;   
+    height: 300px;
+    width: 350px;
+    background-color: rgba(232,232,232,0.5);
+    border-radius: 20px;
+}
+li {
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(232,232,232,0.56);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li:hover {
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#task-list 
+{
+    justify-content: center;
+}
+.delete-btn
+{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(232,232,232,0.56);
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
